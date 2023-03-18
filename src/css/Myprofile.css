@@ -1,0 +1,198 @@
+.myprofile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.top-part {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    height: 40vh;
+}
+
+.emp-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: white;
+    box-shadow: 1px 1px 6px 1px #20498166;
+    border-radius: 8px;
+    background: aliceblue;
+    min-width: 27%;
+    padding: 0px 35px;
+    width: 30%;
+}
+
+.emp-image {
+    width: 100px;
+    margin-right: 30px;
+}
+
+.emp-image img {
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.emp-details {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.emp-name {
+    font-size: 25px;
+    color: #204981;
+    font-weight: 600;
+}
+
+.emp-email {
+    font-size: 13px;
+    font-weight: 600;
+    color: #204981;
+}
+
+.emp-company {
+    color: #564981;
+    font-weight: 600;
+}
+
+.submit-todays {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68%;
+}
+
+.write-report {
+    width: 100%;
+    height: 100%;
+}
+
+.write-report-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.report-input {
+    width: 100%;
+    height: 75%;
+    border-width: 1px;
+    border-color: #2049814a;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #204981;
+    font-weight: 600;
+    margin-bottom: 10px;
+    max-height: 175px;
+    resize: none;
+}
+
+.report-input::placeholder {
+    font-family: sans-serif;
+    color: #204881a3;
+    font-weight: 600;
+}
+
+.report-input:focus {
+    border-color: #2048818a;
+    border-width: 2px;
+    outline: none;
+}
+
+.submit-btn{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color:#254d84eb;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+}
+
+.allreport-title{
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.allreport-title p{
+    font-size: 25px;
+    color: #204981;
+    font-weight: 600;
+}
+
+.all-reports {
+    width: 90%;
+    min-height: 85vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0000001f;
+    margin-top: 31px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.report-submitted{
+    color: white;
+    background: #008000c9;
+    width: 45%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.report{
+    width: 100%;
+    height: fit-content;
+    border-style: solid;
+    border-color: #365b8e80;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 10px;
+    background: aliceblue;
+    margin-bottom: 20px;
+}
+
+.report-date-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:1000px) {
+    .top-part{
+        flex-direction: column;
+        height: 70vh;
+    }
+    .emp-title{
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    .submit-todays{
+        width: 98%;
+    }
+}
+
+@media (max-width:600px) {
+    .report-submitted{
+        width: 70%;
+    }
+}
