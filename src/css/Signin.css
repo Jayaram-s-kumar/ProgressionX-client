@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 55px 0px;
+    height: 90vh;
   }
   
   .box-signin{
@@ -23,6 +24,10 @@ body {
     border-radius: 8px;
     background:aliceblue;
   }
+
+  .box-signin form{
+    width: 106%;
+  }
   
   .box-signin h2 {
     margin: 0px 0 -0.125rem;
@@ -31,7 +36,7 @@ body {
     text-align: center;
     color:  #254d84db;
     font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
-    font-size: 31px;
+    font-size: 20px;
     font-weight: 400;
     
   }
@@ -100,7 +105,7 @@ body {
     cursor: pointer;
     border-radius: 0.312rem;
     font-size: 1rem;
-    width: 100%;
+    width: 93%;
   }
   
   .box-signin input[type="submit"]:hover {

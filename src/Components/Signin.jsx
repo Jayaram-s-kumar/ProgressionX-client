@@ -5,7 +5,7 @@ function Signin() {
   return (
     <div className="join-comp-container-signin">
     <div className="box-signin" id="join-company">
-        <h2>Sign in</h2>
+        <h2>Sign in to ProgressionX</h2>
         <p> </p>
         <form>
             <div className="inputBox">
@@ -20,9 +20,7 @@ function Signin() {
             </div>
             <div className="submit-button">
                 <input type="submit" name="sign-in" value="Sign in" />
-                <a href="./Signup.html">
-                    <p>Signup</p>
-                </a>
+               
             </div>
         </form>
     </div>

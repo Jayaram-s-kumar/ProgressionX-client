@@ -1,11 +1,12 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Homepage from "./Components/Homepage";
-import Navbar from "./Components/Navbar";
 import Signin from './Components/Signin';
 import Signup from './Components/Signup';
 import Myprofile from './Components/Myprofile';
 import Registcomp from './Components/Registcomp';
 import Admin from './Components/Admin';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
       <Route path='/myprofile' element={<Myprofile/>}/>
       <Route path='/admin' element={<Admin/>}/>
     </Routes>
+    <Footer/>
     </BrowserRouter>
   );
 }

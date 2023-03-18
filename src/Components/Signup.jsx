@@ -25,9 +25,7 @@ function Signup() {
                     </div>
                     <div className="submit-button">
                         <input type="submit" name="sign-in" value="Sign up" />
-                            <a href="./Signin.html">
-                                <p>Signin</p>
-                            </a>
+                           
                     </div>
 
                 </form>

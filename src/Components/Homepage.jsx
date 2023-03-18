@@ -34,9 +34,9 @@ function Homepage() {
                     <p> </p>
                     <form>
                         <div className="inputBox">
-                            <input type="text" name="username" required="" onkeyup="this.setAttribute('value', this.value);"
+                            <input type="text" name="companyid" required="" onkeyup="this.setAttribute('value', this.value);"
                                 value="" />
-                            <label>Username</label>
+                            <label>CompanyId</label>
                         </div>
                         <div className="inputBox">
                             <input type="password" name="password" required="" onkeyup="this.setAttribute('value', this.value);"
